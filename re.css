@@ -1,0 +1,328 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Noto+Sans+KR:wght@100;300;400;500;700&family=Playfair+Display:ital,wght@1,400;1,600&display=swap");
+
+
+
+/*--기본 스타일--------------------------------------------------------------------------*/
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+
+/*--바디 기본색--------------------------------------------------------------------------*/
+body {
+  background-color: black;
+}
+
+
+/*--메뉴속성--------------------------------------------------------------------------*/
+
+#nav_menu ul {
+  list-style-type: none;
+  /* 좌측 여백 없애기 */
+  padding-left: 0px;
+  /* 우측 정렬 하기 */
+  float: right;
+}
+
+#nav_menu ul li {
+  display: inline;
+  border-left: 1px solid #ff522d;
+  /* 테두리와 메뉴 간격 벌리기. padding: 위 오른쪽 아래 왼쪽; */
+  padding: 0px 10px 0px 10px;
+  /* 메뉴와 테두리 사이 간격 벌리기. margin: 위 오른쪽 아래 왼쪽; */
+  margin: 5px 0px 5px 0px;
+  color: #ff522d;
+  font-weight: 300;
+  font-size: 9pt;
+}
+
+#nav_menu ul li:first-child {
+  border-left: none;
+}
+
+/*--바이러스 이미지 테두리 속성--------------------------------------------------------------------------*/
+
+.imgb {
+  border-top-style: solid;
+  border-top-color: #ff522d;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ff522d;
+  border-bottom-width: 1px;
+  padding: 0px;
+}
+
+/*--마우스 커서--------------------------------------------------------------------------*/
+
+body {
+  cursor: url(https://tistory1.daumcdn.net/tistory/5423865/skin/images/customcursor.cur),
+    auto !important;
+}
+
+/*--텍스트 속성--------------------------------------------------------------------------*/
+
+.text-normal {
+  font-weight: 200;
+  font-size: 9pt;
+  line-height: 29px;
+}
+
+.text-mid {
+  font-weight: 500;
+  font-size: 9pt;
+  line-height: 29px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-orange {
+  color: #ff522d;
+}
+
+.word {
+  word-break: keep-all;
+}
+
+/*--텍스트 마진--------------------------------------------------------------------------*/
+
+.margin0 {
+  margin-top: 8%;
+}
+
+.margin1 {
+  margin-top: 20%;
+}
+
+.margin2 {
+  margin-top: 30%;
+}
+
+.margin3 {
+  margin-top: 45%;
+}
+
+.margin4 {
+  margin-top: 10%;
+}
+
+/*--이미지 속성--------------------------------------------------------------------------*/
+
+img {
+  display: block;
+}
+
+.img {
+  max-height: 60px;
+}
+
+/*--헤더--------------------------------------------------------------------------*/
+
+.warp {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.section1 img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  margin: auto;
+  background-color: rgba(23, 23, 23, 0.7);
+  backdrop-filter: saturate(150%) blur(8px);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo {
+  height: 28px;
+}
+.nav_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav_menu img {
+  width: 100%;
+  height: 100%;
+}
+
+/* section1 */
+
+.section1 {
+  width: 100%;
+  position: relative;
+}
+
+.section1 .section1Title {
+  position: absolute;
+  top: -30px;
+}
+
+/* section2 */
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.row {
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: 40%;
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.Col-3 {
+  width: 20%;
+}
+
+.col-4 {
+  width: 80%;
+  margin: 0px;
+}
+
+.Col-5 {
+  width: 10%;
+}
+
+/* section3 */
+
+.section3 {
+  width: 100%;
+  height: 120vh;
+  background-attachment: fixed;
+  background-color: #101010;
+}
+
+/* section4 img */
+
+.section4 {
+  width: 100%;
+  height: 200vh;
+  background-color: #101010;
+}
+
+.container_B {
+  margin: 0px auto;
+  padding: auto;
+}
+
+.img-city {
+  margin: 0px auto;
+  width: 100%;
+}
+
+.img-full {
+  margin: 0px auto;
+  width: 1440px;
+  padding: 10px;
+}
+
+/* section5 법정감염병 */
+
+.section5 {
+  width: 100%;
+  height: 80vh;
+  background-color: #000000;
+  align-items: center;
+}
+
+.imgback {
+  width: 100%;
+  background-color: #101010;
+}
+
+/* section6 바이러스c4d */
+
+.section6 {
+  width: 100%;
+  height: 40vh;
+  background-color: #000000;
+  align-items: center;
+}
+
+.imgback {
+  width: 100%;
+  background-color: #101010;
+}
+
+/* section7*/
+
+.section7 {
+  width: 100%;
+  height: 100vh;
+  background-color: #101010;
+  align-items: center;
+}
+
+/* section8*/
+
+.section8 {
+  width: 100%;
+  height: 100vh;
+  background-color: #101010;
+  align-items: center;
+}
+
+.section9 {
+  width: 100%;
+  height: 20vh;
+  background-color: #101010;
+  align-items: center;
+}
+
+.section10{
+  width: 100%;
+  height: 40vh;
+  background-color: #101010;
+}
